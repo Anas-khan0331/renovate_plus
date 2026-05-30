@@ -84,7 +84,6 @@ const certifications = [
 export default function AboutPage() {
   return (
     <>
-      {/* Hero */}
       <section className="relative pt-32 pb-0 bg-brand-charcoal grain-overlay overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,_rgba(201,169,110,0.12)_0%,_transparent_60%)]" />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">

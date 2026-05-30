@@ -6,35 +6,39 @@
 
 const clientConfig = {
   // ── Business Identity ──────────────────────────────────────────────────────
-  businessName: "Renovate+",
-  logoMain: "Renovate", // white text in header/footer logo
-  logoAccent: "+", // gold text in header/footer logo
+  businessName: "Grace Remodeling & Construction",
+  // Logo: logoAccent (gold) renders FIRST, logoMain (white) renders second → "GRC"
+  logoAccent: "G",
+  logoMain: "RC",
+  logoAccentFirst: true,
   aboutBrief:
-    "Austin's most trusted renovation partner since 2004. We transform homes into the spaces families deserve.",
-  tagline: "Austin's Premier Home Renovation Company",
+    "Austin's trusted remodeling & construction team since 2015. We build spaces families are proud to call home.",
+  tagline: "Austin's Trusted Remodeling & Construction Experts",
   city: "Austin",
   state: "TX",
-  phone: "(512) 555-0100",
-  email: "hello@renovateplus.com",
-  address: "2400 S Congress Ave, Suite 200",
+  phone: "(512) 497-1529",
+  email: "info@graceremodeling.com",
+  address: "1205 E Ben White Blvd, Suite 104",
   zipCode: "78704",
-  website: "https://renovateplus.com",
+  website: "https://graceremodeling.com",
 
   // ── Brand Numbers ──────────────────────────────────────────────────────────
-  foundedYear: 2004,
-  projectsCompleted: 150,
-  satisfactionRate: 98, // shown as X%
-  hiddenFees: 0, // shown as $X
+  foundedYear: 2015,
+  projectsCompleted: 120,
+  satisfactionRate: 98,
+  hiddenFees: 0,
 
   // ── Hero Copy ──────────────────────────────────────────────────────────────
-  heroHeadline: "Transform Your Home Into A Masterpiece",
-  heroSubtext: "Austin's 5-Star Renovation Company — Free Design Consultations",
+  heroHeadline: "Austin Homes Transformed. Lives Elevated.",
+  heroSubtext:
+    "Licensed & insured remodeling since 2015 — kitchens, bathrooms, additions & full home renovations",
 
   // ── About Paragraph ────────────────────────────────────────────────────────
   aboutStory:
-    "In 2004, Marcus Holloway started Renovate+ with one truck, two tools, and a conviction " +
-    "that Austin homeowners deserved better than the unreliable contractors they'd been settling " +
-    "for. Today we're Austin's most trusted renovation team — 150+ projects, 20 years of craft.",
+    "Grace Remodeling & Construction was founded by Grace Morales in 2015 with one mission: " +
+    "deliver the craftsmanship and honest communication that Austin homeowners truly deserve. " +
+    "After years working under larger contractors, Grace built her own company to prove it. " +
+    "Today, our licensed team has completed 120+ projects across Austin and the surrounding area.",
 
   // ── Active Services ────────────────────────────────────────────────────────
   // Set any to false to remove it from every page automatically.
@@ -53,8 +57,8 @@ const clientConfig = {
     "Round Rock",
     "Cedar Park",
     "Pflugerville",
-    "West Lake Hills",
-    "Lakeway",
+    "Buda",
+    "Kyle",
     "Georgetown",
   ],
 
@@ -68,46 +72,46 @@ const clientConfig = {
   // photo: local path or URL — leave null to show initials avatar instead.
   team: [
     {
-      name: "Marcus Holloway",
-      role: "Founder & CEO",
-      yearsExperience: 22,
+      name: "Grace Morales",
+      role: "Founder & General Contractor",
+      yearsExperience: 18,
       photo: null,
-      bio: "Marcus founded Renovate+ in 2004 after 8 years as a licensed general contractor. His vision: a renovation company where craftsmanship and client experience are equally non-negotiable.",
+      bio: "Grace founded the company in 2015 after a decade working for top Austin builders. Her hands-on approach and commitment to honest communication set the standard for every project we take on.",
     },
     {
-      name: "Elena Vasquez",
-      role: "Head of Design",
+      name: "Carlos Morales",
+      role: "Operations Manager",
       yearsExperience: 14,
       photo: null,
-      bio: "Elena brings an editorial eye to every project. A graduate of UT Austin's interior design program, she has been featured in Texas Monthly's Home & Garden edition.",
+      bio: "Carlos oversees scheduling, subcontractors, and materials procurement across all active projects. Clients consistently credit him with keeping jobs on time and on budget.",
     },
     {
-      name: "James Carrington",
+      name: "Sandra Kim",
+      role: "Interior Design Lead",
+      yearsExperience: 9,
+      photo: null,
+      bio: "Sandra brings a sharp design eye to every renovation. She helps homeowners make confident decisions on materials, finishes, and layouts they'll love for decades.",
+    },
+    {
+      name: "James Torres",
       role: "Senior Project Manager",
-      yearsExperience: 11,
+      yearsExperience: 12,
       photo: null,
-      bio: "James has personally managed over 80 renovation projects. Homeowners consistently cite his communication and problem-solving as the highlight of their experience.",
+      bio: "James has managed 60+ renovation projects from permit to punch list. His clients say the same thing every time: clear communication, zero surprises.",
     },
     {
-      name: "Priya Nair",
-      role: "Lead Architect",
-      yearsExperience: 16,
+      name: "Miguel Reyes",
+      role: "Lead Carpenter & Finish Work",
+      yearsExperience: 20,
       photo: null,
-      bio: "A licensed architect with a specialty in residential design, Priya ensures every structural decision serves both beauty and long-term durability.",
+      bio: "Miguel's custom cabinetry and millwork can be found in over 150 Austin homes. Twenty years in, he still takes every detail personally.",
     },
     {
-      name: "Tony Reyes",
-      role: "Master Carpenter",
-      yearsExperience: 19,
+      name: "Ashley Park",
+      role: "Client Relations Manager",
+      yearsExperience: 6,
       photo: null,
-      bio: "Tony's custom cabinetry and millwork have been installed in over 200 Austin homes. His standard: if it goes in the home, it has to be perfect.",
-    },
-    {
-      name: "Sarah Mitchell",
-      role: "Client Relations Director",
-      yearsExperience: 8,
-      photo: null,
-      bio: "Sarah ensures every homeowner feels informed, respected, and genuinely excited throughout their renovation.",
+      bio: "Ashley ensures every homeowner feels informed, respected, and genuinely excited about what we are building together.",
     },
   ],
 
@@ -115,75 +119,75 @@ const clientConfig = {
   // Paste Yelp / Google reviews here. photo is optional — leave null for avatar.
   reviews: [
     {
-      text: "Renovate+ delivered everything they promised — on time, on budget, and with craftsmanship that exceeded our expectations. Our kitchen is now the heart of our home.",
+      text: "Grace and her entire team were an absolute pleasure to work with. Our kitchen went from outdated and cramped to a beautiful open space we use every single day. On time, on budget, quality exceeded every expectation.",
       author: "Jennifer & Mark T.",
       location: "Westlake Hills, Austin",
       rating: 5,
       project: "Kitchen Remodel",
-      date: "March 2024",
+      date: "March 2025",
       photo: null,
     },
     {
-      text: "I've worked with multiple contractors over the years. Renovate+ is in a different league. Their communication is excellent and the finished product speaks for itself.",
+      text: "I've hired several contractors over the years and Grace Remodeling & Construction is in a completely different league. Honest pricing, clear communication, and a finished product that speaks for itself.",
       author: "David P.",
       location: "Mueller, Austin",
       rating: 5,
       project: "Home Addition",
-      date: "January 2024",
+      date: "January 2025",
       photo: null,
     },
     {
-      text: "From the first consultation to the final walk-through, the experience was genuinely enjoyable. They treated our home with respect and delivered something beautiful.",
+      text: "Our master bathroom is now a full spa retreat. Grace's team listened to exactly what we wanted, guided us on materials, and executed it flawlessly. From first call to final walk-through — a genuinely great experience.",
       author: "Melissa R.",
       location: "Barton Hills, Austin",
       rating: 5,
       project: "Master Bathroom",
-      date: "February 2024",
+      date: "February 2025",
       photo: null,
     },
     {
-      text: "Our basement was just wasted space for 12 years. Renovate+ turned it into the most-used room in the house. The project management was flawless.",
+      text: "We had an unfinished basement sitting empty for over a decade. Grace Remodeling & Construction turned it into the most-used room in our house. The project was managed perfectly — not a single surprise.",
       author: "Robert S.",
       location: "Travis Heights, Austin",
       rating: 5,
       project: "Basement Finish",
-      date: "December 2023",
+      date: "November 2024",
       photo: null,
     },
     {
-      text: "Three companies gave us quotes. Renovate+ wasn't the cheapest, but they were the most thorough and the most confident in their process. They earned our trust — and delivered.",
+      text: "We got three quotes. Grace was not the cheapest — but she was the most thorough, the most transparent, and the most confident. She earned our trust before we signed and delivered everything she promised.",
       author: "Carlos & Diana M.",
       location: "Tarrytown, Austin",
       rating: 5,
       project: "Outdoor Kitchen",
-      date: "November 2023",
+      date: "October 2024",
       photo: null,
     },
     {
-      text: "The full home renovation was a major undertaking and Renovate+ managed it beautifully. Our project manager felt like a true partner throughout.",
+      text: "A full home renovation is daunting but Grace Remodeling made it manageable. Our project manager James felt like a true partner — weekly updates, total transparency, and genuine care for the outcome.",
       author: "Patricia W.",
       location: "Hyde Park, Austin",
       rating: 5,
       project: "Full Home Renovation",
-      date: "October 2023",
+      date: "September 2024",
       photo: null,
     },
     {
-      text: "They finished two weeks ahead of schedule and still hit every detail on our wishlist. Remarkable team. We've already referred them to three friends.",
+      text: "They finished two weeks ahead of schedule and still hit every detail on our wishlist. Incredible team. Already referred them to three neighbors and every single one said the same thing.",
       author: "Michael & Lisa A.",
       location: "Allandale, Austin",
       rating: 5,
       project: "Kitchen & Bath",
-      date: "September 2023",
+      date: "August 2024",
       photo: null,
     },
     {
-      text: "Our bathroom renovation turned out so stunning we've had guests ask if we moved. The quality of materials and workmanship is on another level.",
+      text: "Our bathroom renovation came out so beautifully that guests ask if we remodeled the whole house. The craftsmanship from Grace Remodeling & Construction is genuinely remarkable. Worth every penny.",
       author: "Tanya H.",
       location: "Cherrywood, Austin",
       rating: 5,
       project: "Bathroom Renovation",
-      date: "August 2023",
+      date: "July 2024",
       photo: null,
     },
   ],
