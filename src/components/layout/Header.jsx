@@ -37,20 +37,20 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-1 group">
           {siteConfig.logoAccentFirst ? (
             <>
-              <span className="font-heading text-2xl font-bold text-brand-gold tracking-tight">
+              <span className="font-heading text-4xl font-bold text-brand-gold tracking-tight">
                 {siteConfig.logoAccent}
               </span>
-              <span className="font-heading text-2xl font-bold text-white tracking-tight">
+              <span className="font-heading text-4xl font-bold text-white tracking-tight">
                 {siteConfig.logoMain}
               </span>
             </>
           ) : (
             <>
-              <span className="font-heading text-2xl font-bold text-white tracking-tight">
+              <span className="font-heading text-4xl font-bold text-white tracking-tight">
                 {siteConfig.logoMain}
               </span>
               {siteConfig.logoAccent && (
-                <span className="font-heading text-2xl font-bold text-brand-gold tracking-tight">
+                <span className="font-heading text-4xl font-bold text-brand-gold tracking-tight">
                   {siteConfig.logoAccent}
                 </span>
               )}
