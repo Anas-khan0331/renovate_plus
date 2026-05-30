@@ -35,13 +35,26 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-1 group">
-          <span className="font-heading text-2xl font-bold text-white tracking-tight">
-            {siteConfig.logoMain}
-          </span>
-          {siteConfig.logoAccent && (
-            <span className="font-heading text-2xl font-bold text-brand-gold tracking-tight">
-              {siteConfig.logoAccent}
-            </span>
+          {siteConfig.logoAccentFirst ? (
+            <>
+              <span className="font-heading text-2xl font-bold text-brand-gold tracking-tight">
+                {siteConfig.logoAccent}
+              </span>
+              <span className="font-heading text-2xl font-bold text-white tracking-tight">
+                {siteConfig.logoMain}
+              </span>
+            </>
+          ) : (
+            <>
+              <span className="font-heading text-2xl font-bold text-white tracking-tight">
+                {siteConfig.logoMain}
+              </span>
+              {siteConfig.logoAccent && (
+                <span className="font-heading text-2xl font-bold text-brand-gold tracking-tight">
+                  {siteConfig.logoAccent}
+                </span>
+              )}
+            </>
           )}
         </Link>
 

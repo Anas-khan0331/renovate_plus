@@ -13,13 +13,26 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-1 mb-4">
-              <span className="font-heading text-2xl font-bold text-white">
-                {siteConfig.logoMain}
-              </span>
-              {siteConfig.logoAccent && (
-                <span className="font-heading text-2xl font-bold text-brand-gold">
-                  {siteConfig.logoAccent}
-                </span>
+              {siteConfig.logoAccentFirst ? (
+                <>
+                  <span className="font-heading text-2xl font-bold text-brand-gold">
+                    {siteConfig.logoAccent}
+                  </span>
+                  <span className="font-heading text-2xl font-bold text-white">
+                    {siteConfig.logoMain}
+                  </span>
+                </>
+              ) : (
+                <>
+                  <span className="font-heading text-2xl font-bold text-white">
+                    {siteConfig.logoMain}
+                  </span>
+                  {siteConfig.logoAccent && (
+                    <span className="font-heading text-2xl font-bold text-brand-gold">
+                      {siteConfig.logoAccent}
+                    </span>
+                  )}
+                </>
               )}
             </div>
             <p className="text-white/60 text-sm leading-relaxed mb-5">

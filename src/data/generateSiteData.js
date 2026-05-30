@@ -413,6 +413,7 @@ function generateSiteData() {
     businessName: cfg.businessName,
     logoMain: cfg.logoMain || cfg.businessName,
     logoAccent: cfg.logoAccent || "",
+    logoAccentFirst: cfg.logoAccentFirst || false,
     aboutBrief:
       cfg.aboutBrief || `${cfg.city}'s trusted team since ${cfg.foundedYear}.`,
     tagline: cfg.tagline,
