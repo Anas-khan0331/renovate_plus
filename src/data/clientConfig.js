@@ -43,12 +43,17 @@ const clientConfig = {
   // ── Active Services ────────────────────────────────────────────────────────
   // Set any to false to remove it from every page automatically.
   services: {
+    // ─ Remodeling ─
     kitchenRemodeling: true,
     bathroomRenovation: true,
     basementFinishing: true,
     homeAdditions: true,
     outdoorLiving: true,
     fullHomeRenovation: true,
+    // ─ Construction ─
+    newHomeConstruction: true,
+    customBuilds: true,
+    garagesAndADUs: true,
   },
 
   // ── Service Areas ──────────────────────────────────────────────────────────

@@ -385,6 +385,192 @@ const SERVICE_TEMPLATES = {
       },
     ],
   },
+
+  newHomeConstruction: {
+    id: 7,
+    slug: "new-home-construction",
+    title: "New Home Construction",
+    icon: "Building2",
+    shortDescription:
+      "Build your dream home from the ground up — fully custom, expertly managed, delivered on time and on budget.",
+    description:
+      "Build your dream home from the ground up — fully custom, expertly managed, delivered on time and on budget.",
+    heroImage:
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80",
+    startingPrice: "$250,000",
+    processSteps: [
+      {
+        step: 1,
+        title: "Site Evaluation & Planning",
+        description:
+          "We assess your lot, review zoning requirements, and develop a detailed construction plan with timeline and budget.",
+      },
+      {
+        step: 2,
+        title: "Design & Permits",
+        description:
+          "Architectural drawings, structural engineering, and full permit acquisition handled by our team.",
+      },
+      {
+        step: 3,
+        title: "Foundation & Framing",
+        description:
+          "Site preparation, foundation pour, and precision framing by our licensed crew — the backbone of your home.",
+      },
+      {
+        step: 4,
+        title: "Finish & Handover",
+        description:
+          "All mechanical, electrical, plumbing, interior finishes, landscaping, and final inspections before key handover.",
+      },
+    ],
+    faqs: [
+      {
+        question: "How long does it take to build a new home?",
+        answer:
+          "Most custom builds take 10–18 months depending on size, complexity, and permit timelines.",
+      },
+      {
+        question: "Do you handle permits and inspections?",
+        answer:
+          "Yes. We manage the entire permit process and coordinate all city inspections on your behalf.",
+      },
+      {
+        question: "Can I make design changes during construction?",
+        answer:
+          "Minor changes can be accommodated early in the process. Major structural changes after framing add cost and time — we communicate all impacts upfront.",
+      },
+      {
+        question: "What is included in the build price?",
+        answer:
+          "Our quoted price covers labor, materials, permits, and project management. Landscaping and appliances are quoted separately.",
+      },
+    ],
+  },
+
+  customBuilds: {
+    id: 8,
+    slug: "custom-builds",
+    title: "Custom Builds",
+    icon: "Hammer",
+    shortDescription:
+      "Unique structures designed around your vision — from custom workshops and home offices to detached suites and entertainment spaces.",
+    description:
+      "Unique structures designed around your vision — from custom workshops and home offices to detached suites and entertainment spaces.",
+    heroImage:
+      "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?w=1600&q=80",
+    startingPrice: "$45,000",
+    processSteps: [
+      {
+        step: 1,
+        title: "Vision & Scope",
+        description:
+          "We sit down with you to understand exactly what you want to build and translate it into a clear, costed plan.",
+      },
+      {
+        step: 2,
+        title: "Design & Engineering",
+        description:
+          "Custom drawings and structural specifications tailored to your vision and compliant with Austin building codes.",
+      },
+      {
+        step: 3,
+        title: "Construction",
+        description:
+          "Our licensed crews build your structure with the same craftsmanship standards applied to every Grace Remodeling project.",
+      },
+      {
+        step: 4,
+        title: "Final Inspection & Delivery",
+        description:
+          "Full inspection walkthrough, punch list completion, and handover with all warranties and documentation.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What kinds of custom builds do you take on?",
+        answer:
+          "Workshops, detached offices, pool houses, entertainment pavilions, in-law suites, and more. If it can be built, we can build it.",
+      },
+      {
+        question: "Do I need my own architect?",
+        answer:
+          "No. We have in-house design expertise and work with licensed structural engineers to handle everything from concept to permit.",
+      },
+      {
+        question: "How is a custom build priced?",
+        answer:
+          "Pricing is based on square footage, materials, and complexity. We provide a fixed-price contract after the design phase so there are no surprises.",
+      },
+      {
+        question: "Can you match the style of my existing home?",
+        answer:
+          "Absolutely. Matching existing architecture and materials is standard practice for us — your new structure will look like it was always there.",
+      },
+    ],
+  },
+
+  garagesAndADUs: {
+    id: 9,
+    slug: "garages-and-adus",
+    title: "Garages & ADUs",
+    icon: "Home",
+    shortDescription:
+      "Add serious value to your property with a custom garage, carport, or accessory dwelling unit — fully permitted and built to last.",
+    description:
+      "Add serious value to your property with a custom garage, carport, or accessory dwelling unit — fully permitted and built to last.",
+    heroImage:
+      "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1600&q=80",
+    startingPrice: "$55,000",
+    processSteps: [
+      {
+        step: 1,
+        title: "Property Assessment",
+        description:
+          "We review your lot, setback requirements, and HOA rules to determine what can be built and where.",
+      },
+      {
+        step: 2,
+        title: "Design & Permits",
+        description:
+          "Custom structural drawings submitted for city approval. We manage all permitting and zoning compliance.",
+      },
+      {
+        step: 3,
+        title: "Foundation & Framing",
+        description:
+          "Concrete slab, framing, roofing, and exterior finishes — all built to match your existing home's aesthetic.",
+      },
+      {
+        step: 4,
+        title: "Interior Finish & Handover",
+        description:
+          "Drywall, electrical, insulation, doors, and any finish details. Final inspection passed and keys in hand.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What is an ADU?",
+        answer:
+          "An Accessory Dwelling Unit is a self-contained living space on your property — a backyard cottage, garage apartment, or in-law suite. Austin has favorable ADU ordinances that make them an excellent investment.",
+      },
+      {
+        question: "Can an ADU be rented out?",
+        answer:
+          "Yes. ADUs in Austin can be rented as long-term or short-term rentals, making them a popular income-generating addition.",
+      },
+      {
+        question: "How much does a detached garage cost?",
+        answer:
+          "A standard two-car detached garage runs $55,000–$90,000 depending on size, finish level, and whether it includes a living space above.",
+      },
+      {
+        question: "How long does the ADU process take?",
+        answer:
+          "From design to completion, expect 6–10 months. Permitting typically takes 6–10 weeks in Austin.",
+      },
+    ],
+  },
 };
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
